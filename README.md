@@ -56,7 +56,3 @@ outb(duty_value, 0x62)  # speed from 0 to 255
 ```
 
 The `auto` command sends `0xff` as the index, which tells the EC to resume its built-in curve for that fan.
-
-## License
-
-Do whatever you want with it.
